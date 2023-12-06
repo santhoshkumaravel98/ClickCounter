@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f1f5f8;
+  height: 100vh;
+  padding: 30px;
+}
+
+.number {
+  color: #c20a72;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #2d3a35;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  color: #2d3a35;
+  font-size: 15px;
+}
+
+.click-button {
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
